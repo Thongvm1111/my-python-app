@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return {
-        "message": "Hello from my-python-app!",
+        "message": "Hello from my-python-app! Version 2.0",
         "version": os.getenv("APP_VERSION", "1.0.0")
     }
 
